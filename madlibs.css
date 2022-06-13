@@ -1,0 +1,112 @@
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.header {
+  width: 100%;
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  background-color: gray;
+  border: 2px solid black;
+  font-size: xx-large;
+}
+
+.center {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  border: 2px solid black;
+}
+
+.leftBar {
+  width: 12%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  background-color: gray;
+  font-size: x-large;
+}
+
+.main {
+  width: 88%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: lemonchiffon;
+}
+
+.form {
+  width: 30%;
+  height: 70%;
+  border: 1px solid cornflowerblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding-bottom: 10px;
+  padding-top: 10px; */
+}
+
+
+.story {
+  width: 40%;
+  height: 70%;
+  display: flex;
+  border: 1px solid pink;
+  flex-wrap: wrap;
+}
+
+.storyname {
+  width: 100%;
+  height: 20%;
+  align-self: flex-start;
+  justify-self: center;
+  font-size: xx-large;
+  flex-wrap: wrap;
+}
+
+#storycontent {
+  height: 70%;
+  width: 100%;
+  align-self: center;
+  flex-wrap: wrap;
+}
+
+.silent {
+  color: grey;
+  font-size: medium;
+}
+
+.loud {
+  color: black;
+  font-size: x-large;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  padding-bottom: 2px;
+}
+
+a li {
+  color: black;
+  font-size: x-large;
+  text-decoration: none;
+  padding: 1em 1.5em;
+}
+
+ul {
+  list-style: none;
+}
+
+/* form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-bet;
+} */

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mad Libs Word Game</title>
+  <link rel="stylesheet" href="/madlibs.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="header"><b>JQuery Homework</b></div>
+  <div class="center">
+    <div class="leftBar">
+      <ul>
+        <a href="/madlibs.html">
+          <li>Mad Libs</li>
+        </a>
+        <a href="/tomThumb.html">
+          <li>Tom Thumb</li>
+        </a>
+      </ul>
+    </div>
+
+    <div class="main">
+      <div class="form">
+        <form action="">
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Person Name: </label>
+            <input type="text" class="form-control" id="name" value="">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Character: </label>
+            <input type="text" class="form-control" id="character" value="">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Adverb: </label>
+            <input type="text" class="form-control" id="adverb" value="">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Adjective: </label>
+            <input type="text" class="form-control" id="adjective" value="">
+          </div>
+          <input class="btn btn-primary" type="submit" value="Submit" id="submit-button">
+        </form>
+      </div>
+
+      <div class="story">
+        <div class="storyname"><b>Arys's Crazy Madlibs Story</b></div>
+        <div id="storycontent" class="silent">
+          The story will appear here
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <script src="/madlibs.js"></script>
+
+</body>
+
+</html>
